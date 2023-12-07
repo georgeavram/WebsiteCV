@@ -76,8 +76,19 @@ body {
   background-size: cover;
 }
 
+/*contacts section*/
+#collapseContacts {
+  background-image: url('images/Abstartct\ background\ 2.jpg');
+  height: 670px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-/*Main content page*/
+
+
+
 #sub-title {
   font-size: 20px;
   color: green;
@@ -93,7 +104,6 @@ body {
   display: none;
   overflow: auto;
   text-align: center;
-
 }
 .active {
   display: block;
@@ -107,13 +117,14 @@ body {
 .content-section li span {
   flex-basis: 70%;
 }
+/* Prevent grades from overflowing when tabs width is shrinked */
 .content-section {
-  overflow: hidden; /* Prevent content from overflowing */
+  overflow: hidden; 
 }
 
-  /* used to change button color on click */
+  /* when the button is collapsed the color is assigned to blue */
   .grades-button.collapsed {
-    background-color: rgb(61, 50, 214); /* Change this color to the desired collapsed state color */
+    background-color: rgb(61, 50, 214);
   }
 
 

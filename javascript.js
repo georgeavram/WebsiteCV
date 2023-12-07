@@ -16,16 +16,6 @@ function toggleContent(sectionId) {
 }
 
 
-// used to switch color for grades button
-document.addEventListener('DOMContentLoaded', function () {
-  var gradesButton = document.getElementById('gradesButton');
-
-  gradesButton.addEventListener('click', function () {
-      gradesButton.classList.toggle('collapsed');
-  });
-  gradesButton.addEventListener('show.bs.collapse', function () {});
-  gradesButton.addEventListener('hide.bs.collapse', function () {});
-});
 
 
 
