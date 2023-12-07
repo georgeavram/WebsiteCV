@@ -1,0 +1,151 @@
+/*main body and container content*/
+body {
+  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-size: 0.8em;
+  color: #000000; 
+  background-color: white; 
+  overflow-x: hidden;
+}
+
+.container {
+  padding-top: 50px;
+  background-color: white; 
+}
+
+
+
+/*Navbar*/
+.navbar {
+  background-color: #000000;
+  color: #ffffff;
+}
+.navbar-text {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px 8px;
+    font-weight: bold;
+}
+
+
+
+/*Main profile content*/
+#profile{
+  text-align: center;
+  display: block;
+  border-radius: 50%;
+  height: 300px;
+}
+
+#profile:hover {
+  transform: scale(1.1);
+  transition:0.2s;
+}
+
+.profile-greeting {
+  padding-top: 1em;
+  font-size: 2em;
+  font-style:italic;
+  color: #ffffff; 
+  font-family:monospace;
+  font-weight: bold; 
+}
+
+#Profile-name {
+  font-size: 4em;
+  color: #ffffff; 
+  font-weight: bold; 
+}
+
+.profile-field {
+  font-size: 2em;
+  font-style:italic;
+  color: #ffffff; 
+  font-family:monospace;
+}
+
+
+
+/*Parralax background image for profile*/
+#parralax-image{
+  background-image: url("images/Abstartct\ background\ 2.jpg");
+  height: 665px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*Main content page*/
+#sub-title {
+  font-size: 20px;
+  color: green;
+}
+
+
+
+
+
+/*Used to help display grades*/
+.content-section {
+  margin: 1%; 
+  display: none;
+  overflow: auto;
+  text-align: center;
+
+}
+.active {
+  display: block;
+}
+.semester-column {
+  width: 50%;
+}
+.content-section li {
+  display: flex;
+}
+.content-section li span {
+  flex-basis: 70%;
+}
+.content-section {
+  overflow: hidden; /* Prevent content from overflowing */
+}
+
+  /* used to change button color on click */
+  .grades-button.collapsed {
+    background-color: rgb(61, 50, 214); /* Change this color to the desired collapsed state color */
+  }
+
+
+
+/*re-sizes grades column for smaller screen*/
+@media screen and (max-width: 1190px) {
+  .semester-column {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Delete later, IDK if this section is needed anymore*/
+
+
+
+
+
+

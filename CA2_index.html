@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>George Avram CV</title>
+	
+	<!--Bootstrap version-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+	
+	<!--Style sheet link-->
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <script src="javascript.js"></script>
+
+
+    <!--Navigation Bar-->
+    <!--NOTE : look at main bootstrap page, has great idea for dashboard design-->
+    
+    <nav class="navbar px-5 fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-text" href="#profile-section">George Avram</a>
+            <ul class="nav">  
+                <li class="navbar-item">
+                    <a class="navbar-text" href="#education">Education</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-text" href="#work-experience">Work Experience</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="navbar-text" href="#section3">section3</a>
+                </li>
+            </ul>
+        </div> 
+    </nav>
+  
+
+    
+    <br id="profile-section"><br> <!--Used to space out top and navigation link-->
+
+          <!--Parralax image to present myself-->
+    <div id="parralax-image">
+        <div class="row h-100" >
+            <div class="col-md-12 alight-self-centre">
+                
+                <!--Text Field-->
+                <div class="row text-center p-3">
+                    <h4 class="profile-greeting">Hi, Im</h4>
+                    <h1 id="Profile-name">George Avram</h1>
+                </div>
+
+                <!--Image Field-->
+                <div class="col-md-12 pt-4 pb-4 justify-content-center">
+                    <img src="images/Profile_Placeholder.png" class=" mx-auto" id="profile">
+                </div>
+
+                <div class="row p-6 text-center p-3">
+                    <h3 class="profile-field">Field : IT</h3>
+                </div>
+            </div>
+            <!-- used to jump to section just above education-->
+            <p id="education"></p> 
+        </div>
+    </div>
+
+
+
+
+
+    <!--Main content div-->
+    <div class="container">
+        <div class="row text-center" >
+            <h1>━━━ Education ━━━</h1>
+            <div class="col-12 py-3">
+            </div>
+        </div>
+         
+        <div class="row pb-5">
+            <div class="col-2">
+                <img src="images/Institute_of_Technology,_Tallaght_(Logo).jpeg" class="img-fluid">
+            </div>
+
+            <div class="col-9">
+                <h2 id="title">Technical University Dublin (TUD)</h2>
+                <h5 id="sub-title">BSc (Hons) in Computing, 2020-2024</h5>
+                <p>I will be earning my Honours degree in computing at the end of summer 2024, so far my experience at TU Tallaght has been an astounding experience with amazingly suportive professors. I have been able to cover a diverse array of moduals per semester having networking, databases, scripting and security being my best and favorite that I've covered.
+                   During my time at TU Tallaght I was also able to learn/improve a number of my soft skills, such as problem-solving and communication through the few projects me and my teams managed, which in turn also helped me understand how to deal with management and conflict resolution with my team. </p>
+            
+
+                <div>
+                    <button id="gradesButton" class="btn btn-success collapsed mt-3 grades-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGrades">
+                        Grades
+                    </button>
+                    
+                </div>
+                <div class="collapse" id="collapseGrades">
+                    <div class=" container-fluid col-12 py-3">
+                        <div class="row pb-3">
+                          <div class="col-2">
+                            <button class="btn btn-secondary" onclick="toggleContent('section1')">Year 4</button>
+                          </div>
+                          <div class="col-2">
+                            <button class="btn btn-secondary" onclick="toggleContent('section2')">Year 3</button>
+                          </div>
+                          <div class="col-2">
+                            <button class="btn btn-secondary" onclick="toggleContent('section3')">Year 2</button>
+                          </div>
+                          <div class="col-2">
+                            <button class="btn btn-secondary" onclick="toggleContent('section4')">Year 1</button>
+                          </div>
+                        </div>
+                    
+                        <div id="section1" class="content-section active">
+                          <h2 class="title mt-3">Year 4</h2>
+                          <div class="row">
+                            <div class="semester-column">
+                                <h3 class="title mt-2">Semester 8</h3>
+                                <ul>
+                                  <li><span>Game Design & Development</span><span>A</span></li>
+                                  <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                  <li><span>Computaional Theory</span><span>B</span></li>
+                                  <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                  <li><span>Project</span><span>B</span></li>
+                                  <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                  <li><span>AWS</span><span>B+</span></li>
+                                  <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                  <li><span></span><span>B+</span></li>
+                                  <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                </ul>
+                              </div>
+                            <div class="semester-column">
+                              <h3 class="title mt-2">Semester 7</h3>
+                              <ul>
+                                <li><span>Private Cloud Architecture</span><span>B+</span></li>
+                                <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                <li><span>Interactive Media Design</span><span>B+</span></li>
+                                <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                <li><span>Enterprise performance Arch</span><span>B</span></li>
+                                <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                <li><span>DevOps</span><span>A</span></li>
+                                <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                <li><span>Private Cloud Architecture</span><span>B+</span></li>
+                                <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                <li><span>Information Management</span><span>B</span></li>
+                                <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                    
+                        <div id="section2" class="content-section">
+                          <h2 class="title mt-3">Year 3</h2>
+                          <div class="row">
+                            <div class="semester-column">
+                                <h3 class="title mt-2">Semester 6</h3>
+                                <ul>
+                                    <li><span>work Experience</span><span>N/A</span></li>
+                                    <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                </ul>
+                              </div>
+                            <div class="semester-column">
+                              <h3 class="title mt-2">Semester 5</h3>
+                              <ul>
+                                <li><span>Server-side Web Development</span><span>B</span></li>
+                                <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                <li><span>Operating Systems</span><span>B+</span></li>
+                                <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                <li><span>Innovation & Entrepreneurshp</span><span>B-</span></li>
+                                <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                <li><span>Cloud Service & Distrib Comp</span><span>B</span></li>
+                                <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                <li><span>Big Data Technologies</span><span>B+</span></li>
+                                <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                <li><span>Adv Routing & Switching</span><span>B+</span></li>
+                                <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                    
+                        <div id="section3" class="content-section">
+                          <h2 class="title mt-3">Year 2</h2>
+                          <div class="row">
+                            <div class="semester-column">
+                                <h3 class="title mt-2">Semester 4</h3>
+                                <ul>
+                                    <li><span>Project</span><span>B-</span></li>
+                                    <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                    <li><span>Routing & Switching Ess</span><span>B+</span></li>
+                                    <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                    <li><span>Management Science</span><span>A</span></li>
+                                    <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                    <li><span>Database Admin & Analysis</span><span>B+</span></li>
+                                    <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                    <li><span>Information Security</span><span>B+</span></li>
+                                    <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                    <li><span>IT Services Management</span><span>B</span></li>
+                                    <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                </ul>
+                              </div>
+                            <div class="semester-column">
+                              <h3 class="title mt-2">Semester 3</h3>
+                              <ul>
+                                <li><span>Software Qual Ass & Testing</span><span>A</span></li>
+                                <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                <li><span>Network Fundementals</span><span>B+</span></li>
+                                <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                <li><span>Adv Database Technologies</span><span>A</span></li>
+                                <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                <li><span>Discrete Mathematics 2</span><span>A</span></li>
+                                <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                <li><span>Client side Web Development</span><span>B+</span></li>
+                                <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                <li><span>IT Scripting & Automation</span><span>A</span></li>
+                                <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                    
+                        <div id="section4" class="content-section">
+                            <h2 class="title mt-3">Year 1</h2>
+                            <div class="row">
+                                <div class="semester-column">
+                                    <h3 class="title mt-2">Semester 2</h3>
+                                    <ul>
+                                        <li><span>Software Development 2</span><span>A</span></li>
+                                        <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                        <li><span>Systems Analysis</span><span>B+</span></li>
+                                        <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                        <li><span>Social Media Communications</span><span>B+</span></li>
+                                        <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                        <li><span>Statistics</span><span>A</span></li>
+                                        <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                        <li><span> Database Fundamentals</span><span>A</span></li>
+                                        <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                        <li><span>Operating Syst Fundamentals</span><span>B+</span></li>
+                                        <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                    </ul>
+                                  </div>
+                              <div class="semester-column">
+                                <h3 class="title mt-2">Semester 1</h3>
+                                <ul>
+                                  <li><span>Software Development 1</span><span>A</span></li>
+                                  <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                  <li><span>Computer Architecture</span><span>B+</span></li>
+                                  <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                  <li><span>Visual Design & User Experience</span><span>A-</span></li>
+                                  <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                  <li><span>Business & Information Systems</span><span>A</span></li>
+                                  <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                  <li><span>Discrete Mathematics 1</span><span>B</span></li>
+                                  <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                  <li><span>Critical Skills Development</span><span>A+</span></li>
+                                  <p>━━━━━━━━━━━━━━━━━━━━━━━━━</p>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div class="row">
+            <div class="col-2">
+            </div>
+            <div class="col-9 py-5">
+                <h2>Projects</h2>
+                <h5 id="sub-title">Delivery Tracking System </h5>
+                <p>This was A team-based project with multiple iterations where data can be passed through an MQTT script to append to our database and then be displayed on a secure localhost live website. The main function was to include a website order searching system via username and password where users can check their order status, date, and location based on the database information. Furthermore, Azure was used for project documentation, coordination, and setting assignments/assignment due dates.  </p>
+            
+                <div>
+                    <div class="semester col-9">
+                        <h5>Difficulties encountered</h5>
+                        <ul>
+                          <li class="list-item pb-2"><span>Creating a proper secure live connection from the database to the website using an MQTT broker was difficult but was handled by studying the functions and test running scripts. </span></li>
+                          <li><span>Using JavaScript to display database content and to use it in a search function proved difficult but was overcome with enough teamwork and testing code. </span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-2">
+            </div>
+            <div class="col-9 py-2">
+                <h5 id="sub-title">IOT Temperature Device</h5>
+                <p>This was my main project and involed creating an IOT device out of a Rasperry pi that could pick up the Temperature of an environment then send the data to AWS Services through secure MQTT connection and be able to pull the data to display on a 
+                    user interface on a seperate device through an MQTT publish while also publishing data for perminant storage on Dynamo DB. My use case for this project is a cheap computer device to collect environmental data with temperature as the base with low bandwidth and power consumption</p>
+            
+                <div>
+                    <div class="semester col-9">
+                        <h5>Difficulties encountered</h5>
+                        <ul>
+                        
+                          <li class="list-item pb-2"><span>Building the script to collect data from the Raspberry pi and pushing it to my AWS service proved difficult at first as I had to account of collecting data, cleaning and properly sending the data in correct intervals to eachother as incorrect timing proved to push incorrect data for a certain point in time, this was solved just by putting stops till certain data pieces are collected</span></li>
+                          <a id="work-experience"></a>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div >
+        </div>
+
+        <div class="row text-center pt-5" >
+            <h1>━━━ Work Experience ━━━</h1>
+            <div class="col-12 py-3">
+            </div>
+        </div>
+         
+        <div class="row pb-5">
+            <div class="col-2">
+                <img src="images/FBD_logo.png" class="img-fluid">
+            </div>
+            <div class="col-9 py-2">
+                <h5 id="sub-title">IOT Temperature Device</h5>
+            </div>
+
+
+
+        </div>
+
+
+
+
+        <div class="row">
+            <div class="col-2">
+            <h4 class="fw-bold">Intrests</h4>
+            </div>
+
+            <div class="col-9 py-3">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur velit ligula, tincidunt consequat imperdiet ac, vestibulum at ex. Mauris accumsan auctor felis et efficitur. Ut non est egestas, volutpat magna sed, varius diam. Pellentesque tempor vel mauris vel mattis. Nullam vitae massa massa. Aliquam sodales auctor ante, vitae aliquam neque porttitor non. Ut mollis, lacus quis porttitor egestas, leo ligula auctor tellus, ut tincidunt erat nulla sit amet augue. Vestibulum molestie feugiat urna ut venenatis. In est mi, fringilla eget neque non, fringilla ornare dolor. Sed elementum massa nec sapien facilisis accumsan. Ut convallis posuere lacus a dignissim. Aenean venenatis, neque eget viverra blandit, sem ipsum sodales erat, sit amet varius libero velit nec nibh. Suspendisse elementum finibus est sit amet eleifend. Morbi sed rhoncus nisl. Aenean a facilisis lorem. Quisque tincidunt elementum lacinia.
+                    Sed vulputate dui a massa tincidunt viverra. Vivamus id libero vel quam euismod malesuada in ut ante. Aenean sit amet tempus turpis, sit amet ullamcorper nulla. In dignissim ipsum mi, in auctor augue fermentum vel. Cras dapibus, ligula eu pharetra posuere, libero risus congue dui, eget porttitor augue massa non orci. Nunc luctus ac elit nec mattis. Duis vestibulum diam eu venenatis mollis. Suspendisse ultricies non libero sed pulvinar. Donec nec ligula faucibus, ornare enim ac, sagittis nunc. Vestibulum volutpat, diam id ultricies scelerisque, lacus mi faucibus lectus, eget dictum elit lorem sit amet velit. Phasellus ante nisl, euismod nec odio porta, vulputate maximus arcu. Sed semper pretium turpis, non tristique velit euismod et. Donec sed ex vehicula, euismod nulla vel, consequat nibh. Quisque sed tincidunt urna, non malesuada enim.
+                    Donec nec dui sollicitudin, blandit ex sit amet, dapibus est. Aenean ante metus, aliquet a leo eget, ullamcorper iaculis sapien. In hac habitasse platea dictumst. Sed efficitur ac ex a efficitur. Donec non ipsum quis enim molestie gravida eu ac ante. Donec hendrerit tellus in ipsum ornare, at scelerisque ipsum semper. Curabitur in rhoncus purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam iaculis ultricies urna, vitae aliquam orci accumsan eget. Maecenas blandit enim a leo bibendum aliquet. Donec eu est ut ante fringilla sodales. Mauris laoreet fermentum ipsum, et ultricies neque facilisis sed. Quisque nulla diam, euismod sed aliquam a, fermentum quis libero.
+                    Phasellus sit amet velit eu dolor blandit volutpat vitae vitae lorem. Nullam mollis neque vel sodales egestas. In posuere sodales justo eget pharetra. Donec a leo ut elit pharetra fringilla et eu nulla. Praesent porta ullamcorper diam, vitae finibus dolor bibendum a. Morbi sed orci metus. Nullam cursus tincidunt quam. Vivamus arcu dolor, varius at nisl sit amet, cursus sodales justo. Integer justo metus, maximus in suscipit at, commodo id felis.
+                    Sed elementum tincidunt dolor vel blandit. Phasellus at felis suscipit, dignissim ante nec, tincidunt arcu. Donec sagittis purus venenatis neque aliquam viverra. Maecenas in faucibus lectus. Nullam cursus tincidunt ante, sit amet luctus felis pellentesque quis. Nunc nec aliquet neque, sit amet pharetra elit. Sed molestie placerat luctus. Sed eros nunc, sollicitudin sit amet nisi in, cursus auctor felis.</p>
+            </div>
+        </div>
+        <!--Contact information section-->
+
+        
+
+    </div>
+</body>
+</html>
