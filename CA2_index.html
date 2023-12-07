@@ -7,7 +7,6 @@
 	
 	<!--Bootstrap version-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 	
 	<!--Style sheet link-->
@@ -271,7 +270,7 @@
         <div class="row">
             <div class="col-2">
             </div>
-            <div class="col-9 py-5">
+            <div class="col-9">
                 <h2>Projects</h2>
                 <h5 id="sub-title">Delivery Tracking System </h5>
                 <p>This was a team-based project that I was part of as my 2nd year of college with multiple iterations where data can be passed through an MQTT script to append to our database and then be displayed on a secure localhost live website. The main function was to include a website order searching system via username and password where users can check their order status, date, and location based on the database information. Furthermore, Azure was used for project documentation, coordination, and setting assignments/assignment due dates.  </p>
@@ -382,10 +381,8 @@
         </div>
 
 
-
-
-
-
+   
+        
 
 
         <div class="row pb-5">
@@ -393,34 +390,41 @@
             </div>
             <div class="col-6">
                 <div>
-                    <button class="btn btn-success collapsed mt-3 grades-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseContacts">
+                    <button class="btn btn-success collapsed mt-3" type="button" data-bs-toggle="modal" data-bs-target="#ContactsModel">
                         Contact Information
                     </button>
                 </div>
             </div>
         </div>
     </div>
-    
-    <div class="row pb-5">
-        <div class="col-12" >
-            <div class="collapse" id="collapseContacts" >
-                <div class=" container-fluid col-12 py-3">
-                    <div class="row pb-3">
-                        <div class="row text-center">
-                            <h1>━━━ Contact Info ━━━</h1>
-                            <div class="col-12 py-3"></div>
-                        </div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur velit ligula, tincidunt consequat imperdiet ac, vestibulum at ex. Mauris accumsan auctor felis et efficitur. Ut non est egestas, volutpat magna sed, varius diam. Pellentesque tempor vel mauris vel mattis. Nullam vitae massa massa. Aliquam sodales auctor ante, vitae aliquam neque porttitor non. Ut mollis, lacus quis porttitor egestas, leo ligula auctor tellus, ut tincidunt erat nulla sit amet augue. Vestibulum molestie feugiat urna ut venenatis. In est mi, fringilla eget neque non, fringilla ornare dolor. Sed elementum massa nec sapien facilisis accumsan. Ut convallis posuere lacus a dignissim. Aenean venenatis, neque eget viverra blandit, sem ipsum sodales erat, sit amet varius libero velit nec nibh. Suspendisse elementum finibus est sit amet eleifend. Morbi sed rhoncus nisl. Aenean a facilisis lorem. Quisque tincidunt elementum lacinia.
-                            Sed vulputate dui a massa tincidunt viverra. Vivamus id libero vel quam euismod malesuada in ut ante. Aenean sit amet tempus turpis, sit amet ullamcorper nulla. In dignissim ipsum mi, in auctor augue fermentum vel. Cras dapibus, ligula eu pharetra posuere, libero risus congue dui, eget porttitor augue massa non orci. Nunc luctus ac elit nec mattis. Duis vestibulum diam eu venenatis mollis. Suspendisse ultricies non libero sed pulvinar. Donec nec ligula faucibus, ornare enim ac, sagittis nunc. Vestibulum volutpat, diam id ultricies scelerisque, lacus mi faucibus lectus, eget dictum elit lorem sit amet velit. Phasellus ante nisl, euismod nec odio porta, vulputate maximus arcu. Sed semper pretium turpis, non tristique velit euismod et. Donec sed ex vehicula, euismod nulla vel, consequat nibh. Quisque sed tincidunt urna, non malesuada enim.
-                            Donec nec dui sollicitudin, blandit ex sit amet, dapibus est. Aenean ante metus, aliquet a leo eget, ullamcorper iaculis sapien. In hac habitasse platea dictumst. Sed efficitur ac ex a efficitur. Donec non ipsum quis enim molestie gravida eu ac ante. Donec hendrerit tellus in ipsum ornare, at scelerisque ipsum semper. Curabitur in rhoncus purus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam iaculis ultricies urna, vitae aliquam orci accumsan eget. Maecenas blandit enim a leo bibendum aliquet. Donec eu est ut ante fringilla sodales. Mauris laoreet fermentum ipsum, et ultricies neque facilisis sed. Quisque nulla diam, euismod sed aliquam a, fermentum quis libero.
-                            Phasellus sit amet velit eu dolor blandit volutpat vitae vitae lorem. Nullam mollis neque vel sodales egestas. In posuere sodales justo eget pharetra. Donec a leo ut elit pharetra fringilla et eu nulla. Praesent porta ullamcorper diam, vitae finibus dolor bibendum a. Morbi sed orci metus. Nullam cursus tincidunt quam. Vivamus arcu dolor, varius at nisl sit amet, cursus sodales justo. Integer justo metus, maximus in suscipit at, commodo id felis.
-                            Sed elementum tincidunt dolor vel blandit. Phasellus at felis suscipit, dignissim ante nec, tincidunt arcu. Donec sagittis purus venenatis neque aliquam viverra. Maecenas in faucibus lectus. Nullam cursus tincidunt ante, sit amet luctus felis pellentesque quis. Nunc nec aliquet neque, sit amet pharetra elit. Sed molestie placerat luctus. Sed eros nunc, sollicitudin sit amet nisi in, cursus auctor felis.</p>
-                    
-                    </div>
+
+
+    <div class="modal fade" id="ContactsModel" >
+        <div class="modal-dialog">
+            <div class="modal-body text-center">
+                <h4>Feel free to contact me on the following websites</h4>
+            </div>
+            <div class="row pb-5">
+                <div class="col-2"></div>
+                <div class="col-2">
+                    <img src="images/FBD_logo.png" class="img-fluid">
+                </div>
+                <div class="col-2">
+                    <img src="images/FBD_logo.png" class="img-fluid">
+                </div>
+                <div class="col-2">
+                    <img src="images/FBD_logo.png" class="img-fluid">
+                </div>
+                <div class="col-2">
+                    <img src="images/FBD_logo.png" class="img-fluid">
                 </div>
             </div>
+            
+          
         </div>
     </div>
+    
+
 
 
 </body>

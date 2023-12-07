@@ -1,6 +1,6 @@
 /*main body and container content*/
 body {
-  font-family: "Roboto","Helvetica","Arial",sans-serif;
+  font-family: Arial;
   font-size: 0.8em;
   color: #000000; 
   background-color: white; 
@@ -76,26 +76,22 @@ body {
   background-size: cover;
 }
 
-/*contacts section*/
-#collapseContacts {
-  background-image: url('images/Abstartct\ background\ 2.jpg');
-  height: 670px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
+/* used for contacts model pop up*/
+.modal-dialog {
+  align-content: center;
+  background-color: white;
+  border-radius: 30px;
 }
 
 
 
 
+/* is used for sub headings */
 #sub-title {
   font-size: 20px;
   color: green;
 }
-
-
-
 
 
 /*Used to help display grades*/
