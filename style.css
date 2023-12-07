@@ -69,7 +69,7 @@ body {
 /*Parralax background image for profile*/
 #parralax-image{
   background-image: url("images/Abstartct\ background\ 2.jpg");
-  height: 665px;
+  height: 670px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -124,28 +124,3 @@ body {
     width: 100%;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Delete later, IDK if this section is needed anymore*/
-
-
-
-
-
-
