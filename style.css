@@ -83,16 +83,6 @@ body {
 }
 
 
-/* used for contacts model pop up*/
-.modal-dialog {
-  align-content: center;
-  background-color: white;
-  border-radius: 30px;
-}
-
-
-
-
 /* is used for sub headings */
 #sub-title {
   font-size: 20px;
@@ -125,9 +115,30 @@ body {
 }
 
   /* when the button is collapsed the color is assigned to blue */
-  .grades-button.collapsed {
-    background-color: rgb(61, 50, 214);
-  }
+.grades-button.collapsed {
+  background-color: rgb(61, 50, 214);
+}
+
+
+/*style for the model contancts popup*/
+.modal-content {
+  margin-top: 30%;
+  align-content: center;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.col-2:hover img {
+  transform: scale(1.1);
+  transition:0.2s;
+}
+
+.modal-body {
+  background-color: rgb(164, 164, 164);
+  border-top-right-radius: 28px;
+  border-top-left-radius: 28px;
+}
+
 
 
 
