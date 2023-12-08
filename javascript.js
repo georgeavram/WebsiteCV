@@ -16,5 +16,9 @@ function toggleContent(sectionId) {
 }
 
 
-
-
+// make nav-bar button also open contact info page
+$(document).ready(function() {
+  $("#contactInfoLink").on("click", function() {
+      $("#ContactsModel").modal("show");
+  });
+});
