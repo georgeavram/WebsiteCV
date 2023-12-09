@@ -129,7 +129,7 @@ body {
 
 /*style for the model contancts popup*/
 .modal-content {
-  margin-top: 30%;
+  margin-top: 10%;
   align-content: center;
   background-color: white;
   border-radius: 30px;
@@ -154,7 +154,9 @@ body {
 }
 
 
-
+.custom-modal {
+  background-color: rgb(118, 118, 118);
+}
 
 /*re-sizes grades column,navbar and profile for smaller screen*/
 @media screen and (max-width: 1190px) {
