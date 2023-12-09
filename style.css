@@ -179,6 +179,9 @@ body {
 #profile-section {
   padding-top: 0em;
 }
+.button-container .col-12 {
+  flex: 1 0 calc(100% - 10px);
+}
 
 }
 
